@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1045454685183",
+    "firebase_url": "https://interview-project-b0f32.firebaseio.com",
+    "project_id": "interview-project-b0f32",
+    "storage_bucket": "interview-project-b0f32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045454685183:android:02c1849439e205b5ac9dca",
+        "android_client_info": {
+          "package_name": "com.stingandroid.firebaseproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045454685183-o22iblqo2dhmnk66v6u2figm54k52oqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABnaLO6SrianpS5-4ncDJhaRjD5Q-zhZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045454685183-o22iblqo2dhmnk66v6u2figm54k52oqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

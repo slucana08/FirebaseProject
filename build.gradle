@@ -1,0 +1,44 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.2'
+        classpath 'com.google.gms:google-services:4.3.2'
+        
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven {
+            url 'https://jitpack.io'
+        }
+    }
+}
+
+ext{
+    materialVersion = '1.0.0'
+    coreVersion = '1.0.1'
+    navigationVersion = '1.0.0'
+    daggerVersion = '2.20'
+    firebaseVersion = '19.1.0'
+
+    retrofitVersion = '2.3.0'
+    converterGsonVersion = '2.0.0'
+    okhttpVersion = '3.6.0'
+    gsonVersion = '2.8.0'
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

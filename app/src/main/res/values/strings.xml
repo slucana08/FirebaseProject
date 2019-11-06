@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">FirebaseProject</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="names">Names</string>
+    <string name="surname">Surname</string>
+    <string name="register">Register</string>
+    <string name="registration_form">Registration form</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="field_required">Field required</string>
+    <string name="minimum_pass_length">Minimum 6 characters</string>
+    <string name="movies_app">Movies APP</string>
+    <string name="wrong_credentials">Wrong credentials</string>
+    <string name="bad_email">Badly formatted email</string>
+    <string name="email_used">Email is already in use</string>
+    <string name="ok">OK</string>
+    <string name="user_created">User created</string>
+    <string name="account">Account</string>
+    <string name="log_out">Log out</string>
+    <string name="acount_information">Account Information</string>
+    <string name="save">save</string>
+    <string name="information_updated">Information Updated</string>
+    <string name="input_new_password">Input new password</string>
+    <string name="password">Password</string>
+    <string name="input_password">To change the email you must input your password</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="retry">RETRY</string>
+    <string name="verify_email">User created, please verify your email address</string>
+    <string name="must_verify_email">You must verify your email</string>
+    <string name="new_password">New password</string>
+    <string name="password_change">Password change</string>
+    <string name="error_creating_account">Error creating account</string>
+    <string name="error_creating_profile">Error creating profile</string>
+    <string name="error_verification_email">Error sending verification email</string>
+    <string name="resend">RESEND</string>
+    <string name="try_later_open_app">Try again later or restart the application</string>
+    <string name="complete_profile">Please complete your profile</string>
+    <string name="error_update_password">Error updating password</string>
+</resources>

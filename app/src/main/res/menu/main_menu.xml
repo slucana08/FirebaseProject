@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/empty"
+        android:orderInCategory="101"
+        android:icon="@drawable/icon_more_vert"
+        app:showAsAction="always"
+        android:title="">
+        <menu>
+            <item android:id="@+id/accountFragment"
+                android:title="@string/account"
+                android:icon="@drawable/icon_account"/>
+
+            <item android:id="@+id/log_out"
+                android:title="@string/log_out"
+                android:icon="@drawable/icon_exit"/>
+        </menu>
+    </item>
+
+</menu>
